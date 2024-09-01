@@ -123,7 +123,7 @@ def invest():
         session['error'] = "Invalid investment amount."
 
     return redirect(url_for('dashboard'))
-sdfas
+
 
 
 @app.route('/logout', methods=['GET', 'POST'])
@@ -133,4 +133,4 @@ def logout():
     return redirect(url_for('login'))
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5022, debug=True)
+    app.run(host='0.0.0.0', port=4027)
